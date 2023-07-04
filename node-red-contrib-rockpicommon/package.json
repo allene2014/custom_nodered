@@ -1,0 +1,13 @@
+{
+    "name": "node-red-contrib-rockpicommon",
+    "version": "1.0.0",
+    "description": "Un nodo personalizado para RockPi en Node-RED",
+    "keywords": [
+      "Node-RED",
+      "RockPi"
+    ],
+    "author": {
+      "name": "Pacific logging"
+     }
+      
+  }

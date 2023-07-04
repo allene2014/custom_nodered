@@ -1,0 +1,52 @@
+<script type="text/javascript">
+    RED.nodes.registerType('rocpi4tst',{
+        category: 'function',
+        color: '#a6bbcf',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "file.png",
+        label: function() {
+            return this.name||"rocpi4tst";
+        }
+    });
+</script>
+
+<!-- Contenido HTML del nodo -->
+<script type="text/html" data-template-name="rocpi4tst">
+    <div class="form-row">
+        <!--label for="node-input-name"><i class="fa fa-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name"-->
+        <input type="radio" id="pin7" name="radioButtons">
+        <label for="pin7">Pin 7</label><br>
+
+        <input type="radio" id="pin15" name="radioButtons">
+        <label for="pin15">Pin 15</label><br>
+
+        <input type="radio" id="pin16" name="radioButtons">
+        <label for="pin16">Pin 16</label><br>
+
+        <input type="radio" id="pin22" name="radioButtons">
+        <label for="pin22">Pin 22</label><br>
+        
+        <input type="radio" id="pin29" name="radioButtons">
+        <label for="pin29">Pin 29</label><br>
+
+        <input type="radio" id="pin31" name="radioButtons">
+        <label for="pin31">Pin 31</label><br>
+
+        <input type="radio" id="pin32" name="radioButtons">
+        <label for="pin32">Pin 32</label><br>
+        
+        <input type="radio" id="pin33" name="radioButtons">
+        <label for="pin33">Pin 33</label><br>
+
+        <input type="radio" id="pin37" name="radioButtons">
+        <label for="pin37">Pin 37</label><br>
+    </div>
+</script>
+<script type="text/html" data-help-name="rocpi4tst">
+    <p>Intento de envio de comandos para RockPi4 con libreria periphery dePython</p>
+</script>

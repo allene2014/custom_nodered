@@ -1,0 +1,8 @@
+{
+    "name":"node-red-example",
+    "node-red":{
+        "nodes":{
+            "lowe-case":"lower-case.js"
+        }
+    }
+}

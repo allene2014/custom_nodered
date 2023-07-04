@@ -1,0 +1,25 @@
+<script type="text/javascript">
+    function sendValues() {
+          var values = {};
+          values.radioButton1=document.getElementById("radioButton1").checked ;
+          values.radioButton2=document.getElementById("radioButton2").checked ;
+          values.radioButton3=document.getElementById("radioButton3").checked ;
+
+      
+        msg.payload=values;
+        node.send(msg);
+    }
+    </script>
+    
+    <div>
+        <input type="radio" id="radioButton1" name="radioButtons" value="option1">
+        <label for="radioButton1">Option 1</label><br>
+        
+        <input type="radio" id="radioButton2" name="radioButtons" value="option2">
+        <label for="radioButton2">Option 2</label><br>
+
+        <input type="radio" id="radioButton3" name="radioButtons" value="option3">
+        <label for="radioButton3">Option 3</label><br>
+
+          <button onclick=sendValues()>Enviar</button> 
+    </div>

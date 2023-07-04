@@ -1,0 +1,8 @@
+{
+    "name": "rocpi4tst",
+    "node-red": {
+        "nodes": {
+            "rocpi4tst": "rocpi4tst.js"
+        }
+    }
+}
